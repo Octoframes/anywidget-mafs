@@ -1,7 +1,11 @@
 [project]
 name = "anywidget-mafs"
 version = "0.0.1"
-
 dependencies = [
     "anywidget"
+]
+
+[project.optional-dependencies]
+dev = [
+    "watchfiles"
 ]
