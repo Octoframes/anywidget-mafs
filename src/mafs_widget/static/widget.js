@@ -24,9 +24,9 @@ var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__ge
   mod
 ));
 
-// node_modules/react/cjs/react.development.js
+// ../node_modules/react/cjs/react.development.js
 var require_react_development = __commonJS({
-  "node_modules/react/cjs/react.development.js"(exports, module) {
+  "../node_modules/react/cjs/react.development.js"(exports, module) {
     "use strict";
     if (true) {
       (function() {
@@ -1897,9 +1897,9 @@ var require_react_development = __commonJS({
   }
 });
 
-// node_modules/react/index.js
+// ../node_modules/react/index.js
 var require_react = __commonJS({
-  "node_modules/react/index.js"(exports, module) {
+  "../node_modules/react/index.js"(exports, module) {
     "use strict";
     if (false) {
       module.exports = null;
@@ -1909,9 +1909,9 @@ var require_react = __commonJS({
   }
 });
 
-// node_modules/scheduler/cjs/scheduler.development.js
+// ../node_modules/scheduler/cjs/scheduler.development.js
 var require_scheduler_development = __commonJS({
-  "node_modules/scheduler/cjs/scheduler.development.js"(exports) {
+  "../node_modules/scheduler/cjs/scheduler.development.js"(exports) {
     "use strict";
     if (true) {
       (function() {
@@ -2359,9 +2359,9 @@ var require_scheduler_development = __commonJS({
   }
 });
 
-// node_modules/scheduler/index.js
+// ../node_modules/scheduler/index.js
 var require_scheduler = __commonJS({
-  "node_modules/scheduler/index.js"(exports, module) {
+  "../node_modules/scheduler/index.js"(exports, module) {
     "use strict";
     if (false) {
       module.exports = null;
@@ -2371,9 +2371,9 @@ var require_scheduler = __commonJS({
   }
 });
 
-// node_modules/react-dom/cjs/react-dom.development.js
+// ../node_modules/react-dom/cjs/react-dom.development.js
 var require_react_dom_development = __commonJS({
-  "node_modules/react-dom/cjs/react-dom.development.js"(exports) {
+  "../node_modules/react-dom/cjs/react-dom.development.js"(exports) {
     "use strict";
     if (true) {
       (function() {
@@ -23462,9 +23462,9 @@ var require_react_dom_development = __commonJS({
   }
 });
 
-// node_modules/react-dom/index.js
+// ../node_modules/react-dom/index.js
 var require_react_dom = __commonJS({
-  "node_modules/react-dom/index.js"(exports, module) {
+  "../node_modules/react-dom/index.js"(exports, module) {
     "use strict";
     if (false) {
       checkDCE();
@@ -23475,9 +23475,9 @@ var require_react_dom = __commonJS({
   }
 });
 
-// node_modules/react-dom/client.js
+// ../node_modules/react-dom/client.js
 var require_client = __commonJS({
-  "node_modules/react-dom/client.js"(exports) {
+  "../node_modules/react-dom/client.js"(exports) {
     "use strict";
     var m = require_react_dom();
     if (false) {
@@ -23506,9 +23506,9 @@ var require_client = __commonJS({
   }
 });
 
-// node_modules/react/cjs/react-jsx-runtime.development.js
+// ../node_modules/react/cjs/react-jsx-runtime.development.js
 var require_react_jsx_runtime_development = __commonJS({
-  "node_modules/react/cjs/react-jsx-runtime.development.js"(exports) {
+  "../node_modules/react/cjs/react-jsx-runtime.development.js"(exports) {
     "use strict";
     if (true) {
       (function() {
@@ -24384,9 +24384,9 @@ var require_react_jsx_runtime_development = __commonJS({
   }
 });
 
-// node_modules/react/jsx-runtime.js
+// ../node_modules/react/jsx-runtime.js
 var require_jsx_runtime = __commonJS({
-  "node_modules/react/jsx-runtime.js"(exports, module) {
+  "../node_modules/react/jsx-runtime.js"(exports, module) {
     "use strict";
     if (false) {
       module.exports = null;
@@ -24396,18 +24396,18 @@ var require_jsx_runtime = __commonJS({
   }
 });
 
-// js_src/widget.jsx
+// widget.jsx
 var React18 = __toESM(require_react());
 var import_client = __toESM(require_client());
 
-// js_src/App.jsx
+// App.jsx
 var React16 = __toESM(require_react());
 
-// node_modules/mafs/build/index.mjs
+// ../node_modules/mafs/build/index.mjs
 var React8 = __toESM(require_react(), 1);
 var React2 = __toESM(require_react(), 1);
 
-// node_modules/tiny-invariant/dist/esm/tiny-invariant.js
+// ../node_modules/tiny-invariant/dist/esm/tiny-invariant.js
 var isProduction = false;
 var prefix = "Invariant failed";
 function invariant(condition, message) {
@@ -24422,11 +24422,11 @@ function invariant(condition, message) {
   throw new Error(value);
 }
 
-// node_modules/mafs/build/index.mjs
+// ../node_modules/mafs/build/index.mjs
 var React22 = __toESM(require_react(), 1);
 var import_jsx_runtime = __toESM(require_jsx_runtime(), 1);
 
-// node_modules/use-resize-observer/dist/bundle.esm.js
+// ../node_modules/use-resize-observer/dist/bundle.esm.js
 var import_react = __toESM(require_react());
 function useResolvedElement(subscriber, refOrElement) {
   var lastReportRef = (0, import_react.useRef)(null);
@@ -24553,7 +24553,7 @@ function useResizeObserver(opts) {
   }, [refCallback, size.width, size.height]);
 }
 
-// node_modules/@use-gesture/core/dist/maths-0ab39ae9.esm.js
+// ../node_modules/@use-gesture/core/dist/maths-0ab39ae9.esm.js
 function clamp(v, min, max) {
   return Math.max(min, Math.min(v, max));
 }
@@ -24597,7 +24597,7 @@ function computeRubberband(bounds, [Vx, Vy], [Rx, Ry]) {
   return [rubberbandIfOutOfBounds(Vx, X0, X1, Rx), rubberbandIfOutOfBounds(Vy, Y0, Y1, Ry)];
 }
 
-// node_modules/@use-gesture/core/dist/actions-76b8683e.esm.js
+// ../node_modules/@use-gesture/core/dist/actions-76b8683e.esm.js
 function _toPrimitive(input, hint) {
   if (typeof input !== "object" || input === null)
     return input;
@@ -26150,10 +26150,10 @@ var wheelAction = {
   resolver: wheelConfigResolver
 };
 
-// node_modules/@use-gesture/react/dist/use-gesture-react.esm.js
+// ../node_modules/@use-gesture/react/dist/use-gesture-react.esm.js
 var import_react2 = __toESM(require_react());
 
-// node_modules/@use-gesture/core/dist/use-gesture-core.esm.js
+// ../node_modules/@use-gesture/core/dist/use-gesture-core.esm.js
 function _objectWithoutPropertiesLoose(source, excluded) {
   if (source == null)
     return {};
@@ -26499,7 +26499,7 @@ function parseMergedHandlers(mergedHandlers, mergedConfig) {
   };
 }
 
-// node_modules/@use-gesture/react/dist/use-gesture-react.esm.js
+// ../node_modules/@use-gesture/react/dist/use-gesture-react.esm.js
 function useRecognizers(handlers, config = {}, gestureKey, nativeHandlers) {
   const ctrl = import_react2.default.useMemo(() => new Controller(handlers), []);
   ctrl.applyHandlers(handlers, nativeHandlers);
@@ -26535,7 +26535,7 @@ function useGesture(handlers, config) {
   return hook(handlers, config || {});
 }
 
-// node_modules/mafs/build/index.mjs
+// ../node_modules/mafs/build/index.mjs
 var React3 = __toESM(require_react(), 1);
 var React4 = __toESM(require_react(), 1);
 var React5 = __toESM(require_react(), 1);
@@ -26574,7 +26574,7 @@ var import_jsx_runtime25 = __toESM(require_jsx_runtime(), 1);
 var import_jsx_runtime26 = __toESM(require_jsx_runtime(), 1);
 var React15 = __toESM(require_react(), 1);
 
-// node_modules/katex/dist/katex.mjs
+// ../node_modules/katex/dist/katex.mjs
 var SourceLocation = class _SourceLocation {
   // The + prefix indicates that these fields aren't writeable
   // Lexer holding the input string.
@@ -40898,7 +40898,7 @@ var renderToDomTree = function renderToDomTree2(expression, options) {
   }
 };
 
-// node_modules/mafs/build/index.mjs
+// ../node_modules/mafs/build/index.mjs
 var import_jsx_runtime27 = __toESM(require_jsx_runtime(), 1);
 var CoordinateContext = React2.createContext(null);
 CoordinateContext.displayName = "CoordinateContext";
@@ -42545,7 +42545,7 @@ var Debug = {
 Debug.ViewportInfo.displayName = "Debug.ViewportInfo";
 Debug.TransformWidget.displayName = "Debug.TransformWidget";
 
-// js_src/App.jsx
+// App.jsx
 function App() {
   const hintRadius = 3;
   const translate = useMovablePoint([0, 0], {
@@ -42582,11 +42582,11 @@ function App() {
 }
 var App_default = App;
 
-// js_src/hooks.js
+// hooks.js
 var React17 = __toESM(require_react());
 var ModelContext = React17.createContext();
 
-// js_src/widget.jsx
+// widget.jsx
 function render3({ model, el }) {
   let root = import_client.default.createRoot(el);
   root.render(

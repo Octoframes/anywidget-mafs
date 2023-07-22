@@ -4,7 +4,7 @@ import * as React from "react";
 import "mafs/core.css";
 // import "mafs/font.css";
 
-import {
+import { 
   Mafs,
   Ellipse,
   Circle,
