@@ -1,17 +1,20 @@
 import * as React from "react";
-import ReactDOM from "react-dom/client";
+// import QRCode from "react-qr-code";
+import { Mafs, Coordinates } from "mafs";
+import { createRender, useModelState } from "@anywidget/react";
+import "mafs/core.css";
 
-import App from "./App.jsx";
-import { ModelContext } from "./hooks.js";
-
-export function render({ model, el }) {
-  let root = ReactDOM.createRoot(el);
-  root.render(
-    <React.StrictMode>
-      <ModelContext.Provider value={model}>
-        <App />
-      </ModelContext.Provider>
-    </React.StrictMode>,
+export const render = createRender(() => {
+  const [content] = useModelState("content");
+  // return <h1>{content}</h1> ;
+    return (
+    <Mafs>
+      <Coordinates.Cartesian />
+    </Mafs>
   );
-  return () => root.unmount();
-}
+});
+
+
+
+
+
