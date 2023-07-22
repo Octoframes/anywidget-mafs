@@ -24396,11 +24396,11 @@ var require_jsx_runtime = __commonJS({
   }
 });
 
-// src/widget.jsx
+// js_src/widget.jsx
 var React18 = __toESM(require_react());
 var import_client = __toESM(require_client());
 
-// src/App.jsx
+// js_src/App.jsx
 var React16 = __toESM(require_react());
 
 // node_modules/mafs/build/index.mjs
@@ -42545,7 +42545,7 @@ var Debug = {
 Debug.ViewportInfo.displayName = "Debug.ViewportInfo";
 Debug.TransformWidget.displayName = "Debug.TransformWidget";
 
-// src/App.jsx
+// js_src/App.jsx
 function App() {
   const hintRadius = 3;
   const translate = useMovablePoint([0, 0], {
@@ -42582,11 +42582,11 @@ function App() {
 }
 var App_default = App;
 
-// src/hooks.js
+// js_src/hooks.js
 var React17 = __toESM(require_react());
 var ModelContext = React17.createContext();
 
-// src/widget.jsx
+// js_src/widget.jsx
 function render3({ model, el }) {
   let root = import_client.default.createRoot(el);
   root.render(
